@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gmall-parent:war">
+    <output-path>$PROJECT_DIR$/gmall-parent/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gmall-parent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gmall-parent-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gmall-parent:war exploded" />
+    </root>
+  </artifact>
+</component>
